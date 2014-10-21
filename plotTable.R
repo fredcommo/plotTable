@@ -41,7 +41,3 @@ plotTable <- function(Table, r=max(Table)/100, t=1, showLines=TRUE, freq=TRUE, .
   }
 }
 
-# Example
-set.seed(1245)
-X <- matrix(sample(1:100, 12), 4, 3)
-plotTable(X, bg="lightblue", fg="purple", freq=FALSE, xlab="First factor", ylab="Second factor")
